@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>ChartFX.Lite</name>
+  </assembly>
+  <members>
+    <member name="P:SoftwareFX.ChartFX.Lite.AxisBase.Grid">
+      <summary>Allows customization of major grid lines by providing access to the supported members of the line class.  </summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.AxisBase.Gridlines">
+      <summary>Allows you to display or hide gridlines at the major intervals for the selected axis.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.AxisBase.LabelsFormat">
+      <summary>Used to format the labels displayed on the selected axis.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.AxisBase.Max">
+      <summary>Defines the maximum value of a specific axis.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.AxisBase.Min">
+      <summary>Defines the minimum value of a specific axis.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.AxisBase.TextColor">
+      <summary>Changes the text color of the axis labels for a specific axis.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.AxisBase.Title">
+      <summary>Gets or sets the title for a specific axis.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.AxisBase.Visible">
+      <summary>Shows or hides the axis labels, tick marks and grids for the specified axis.</summary>
+    </member>
+    <member name="M:SoftwareFX.ChartFX.Lite.AxisBase.AdjustScale">
+      <summary>Adjusts the selected axis to "nice" scale values.</summary>
+    </member>
+    <member name="M:SoftwareFX.ChartFX.Lite.AxisBase.ClearLabels">
+      <summary>Used to clear all labels for a selected axis.</summary>
+    </member>
+    <member name="M:SoftwareFX.ChartFX.Lite.AxisBase.PixelToValue(System.Int32)">
+      <summary>Converts a position in pixels in the chart area to its representation on the selected axis.</summary>
+      <param name="xyPixel">An integer specifying the pixel value to be converted.</param>
+    </member>
+    <member name="M:SoftwareFX.ChartFX.Lite.AxisBase.ResetScale">
+      <summary>Prepares the selected axis to receive new data by resetting scale values.</summary>
+    </member>
+    <member name="M:SoftwareFX.ChartFX.Lite.AxisBase.ValueToPixel(System.Double)">
+      <summary>Converts a value to its position in pixels on a selected axis.</summary>
+      <param name="dValue">A double specifying the point value to be converted.</param>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.Line.Color">
+      <summary>Allows you to set the line color for a selected line.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.Line.EndCap">
+      <summary>Allows you to configure a marker shape at the ending of a selected line</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.Line.StartCap">
+      <summary>Allows you to configure a marker shape at the beginning of a selected line.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.Line.Style">
+      <summary>Allows you to set the line style for a selected line.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.Line.Width">
+      <summary>Allows you to set the line width for a selected line.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.SeriesAttributes.Color">
+      <summary>Sets a color for the selected series.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.SeriesAttributes.Gallery">
+      <summary>Sets the chart type for a particular series.  All chart types are available in both 2D and 3D modes.    </summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.Title.Text">
+      <summary>Adds a title to a chart.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.Title.TextColor">
+      <summary>Sets the color of text for the specified title.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.ValueFormat.CustomFormat">
+      <summary>Allows you to set a custom format to the selected label, mouseover tip or value.  </summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.ValueFormat.Decimals">
+      <summary>Allows you to set the number of decimals for the selected label, mouseover tip or value.</summary>
+    </member>
+    <member name="P:SoftwareFX.ChartFX.Lite.ValueFormat.Format">
+      <summary>Used to format the selected label, mouseover tip or value to numbers or currency.</summary>
+    </member>
+    <member name="M:SoftwareFX.ChartFX.Lite.ValueFormat.FormatDateTime(System.DateTime)">
+      <summary>Returns an expression formatted as a date or time.  </summary>
+      <param name="dt">Required. Date expression to be formatted.</param>
+    </member>
+    <member name="M:SoftwareFX.ChartFX.Lite.ValueFormat.FormatNumber(System.Double)">
+      <summary>Returns an expression formatted as a number.</summary>
+      <param name="d">Required. Expression to be formatted.</param>
+    </member>
+  </members>
+</doc>
