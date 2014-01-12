@@ -61,15 +61,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NeuralLib\NeuralLib.csproj">
-      <Project>{854add5d-a681-4672-93d2-b1cccebd47a2}</Project>
-      <Name>NeuralLib</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="CreateNetworkForm.resx" />
     <EmbeddedResource Include="Form1.resx" />
     <EmbeddedResource Include="InfoForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="NeuralLib\NeuralLib.csproj">
+      <Project>{854add5d-a681-4672-93d2-b1cccebd47a2}</Project>
+      <Name>NeuralLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

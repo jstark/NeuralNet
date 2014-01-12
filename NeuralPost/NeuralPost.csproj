@@ -76,7 +76,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\NeuralLib\NeuralLib.csproj">
+    <ProjectReference Include="..\NeuralLib\NeuralLib.csproj">
       <Project>{854add5d-a681-4672-93d2-b1cccebd47a2}</Project>
       <Name>NeuralLib</Name>
     </ProjectReference>
